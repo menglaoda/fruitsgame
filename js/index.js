@@ -18,6 +18,10 @@ $(function(){
 	    	clearInterval(startgame);
 	    	$(".percent").html("100%");
 			$(".loadding").css("width","100%");
+			setTimeout(function(){
+				$(".start").hide();
+				$(".choose").show();
+			},100)
 	    }
 	})
 })

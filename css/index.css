@@ -49,3 +49,54 @@ body{
 	background: orange;
 	border-radius: 10px;
 }
+.choose{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: none;
+}
+.choose-bg{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.option-list{
+	width: 166px;
+	list-style: none;
+	position: absolute;
+	top: 160px;
+	right: 20px;
+}
+.option-list li{
+	height: 50px;
+	background: url(../img/ui_bar_main.png) no-repeat -0px -0px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+.option-list li:nth-child(2){
+	background: url(../img/ui_bar_main.png) no-repeat -167px -0px;
+}
+.option-list li:nth-child(3){
+	background: url(../img/ui_bar_main.png) no-repeat -335px -0px;
+}
+.option-list li:nth-child(4){
+	background: url(../img/ui_bar_main.png) no-repeat -502px -0px;
+}
+.option-list li:nth-child(5){
+	background: url(../img/ui_bar_main.png) no-repeat -669px -0px;
+}
+.option-list li:nth-child(1):hover{
+	background: url(../img/ui_bar_main.png) no-repeat -0px -50px;
+}
+.option-list li:nth-child(2):hover{
+	background: url(../img/ui_bar_main.png) no-repeat -167px -50px;
+}
+.option-list li:nth-child(3):hover{
+	background: url(../img/ui_bar_main.png) no-repeat -335px -50px;
+}
+.option-list li:nth-child(4):hover{
+	background: url(../img/ui_bar_main.png) no-repeat -502px -50px;
+}
+.option-list li:nth-child(5):hover{
+	background: url(../img/ui_bar_main.png) no-repeat -669px -50px;
+}
